@@ -1,0 +1,75 @@
+53 |                                                           xx  xx                                                                                                                             
+54 |                                                        x  xxxxxxx                                                           x                              xxxx                              
+55 |                                                    xxxxxxxxxxxxxx  x                                                        x                 xx           xxxx                              
+56 |                                                   xx    xxxxxxxxx xxxxx                                                    xx              xxxxx          xx xx  x                           
+57 |                                                  xxxx xxxxxxxxxxxxxxxxx                                                   xxxxxxx     xxxx  xx x xx        x x  xx                           
+58 |                                                  xx  xxxxxxxxxxxxxxxx x                                                   xxxxxxx xxxxx x   x  xxxx        xxxxxxxxx                         
+59 |                                                  xx xxxxxxxxxxxxxxxxx                                                      xxxx xxxxxx xxx  xxxxxx          xxxxxxxxx                        
+60 |                                              xxxxxxxxxxxxxxxxxxxxxxx                                                       x  x xxxxxx  xxxxxxxxx  xx         xxxxxxx                        
+61 |                                             xxxxxxxxxxxxxxxxxxxxxxxxx                                                      xx xxxx x xxxx     xxxxxxx        xxxxxx                          
+62 |                                              xxxxxxxxx  xxx xxxxxxxx                                                       xx xxxx x           xxx x         xxxxx                           
+63 |                                               xxxxxxxxxxxx  xxxxxxxx                                                        x  xxx              xxxx         xxxxx                           
+64 |                                              xxxxxxx    x  xxxxxxxxx                                                        xx xxx               xxxx      xxxxxxx                           
+65 |                                               x xxxx    x  xxxxxx xxx      x xx                                     x xxxxxxxx                   xxxxxx  xxxxxxxxxxx                         
+66 |                                                 xxxxxxxxxxx xxx  xxxx    x xxxxxxxx                                 xxxx xx xx                      xxx  xxxxxxxxxxxx                        
+67 |                                                xxx  xxxxxxx  xx xxxxx  xxxxxxxxxxxx                                xxxxxx  xx                     xxx    xxxxxxxxxxx                         
+68 |                                               xx    xx  x   xxxxxxxxxxxxxxx  x                                    xxxxx  x xxx                    x     xxxxxxxxxxx                          
+69 |                                               x             xxxxxxxxxxxx     xx                                   xxxxxx xxx                      x x  xxxxxxxxx xxx                         
+70 |                                               x               xxx xxxxxx     xx                                    xxxxx  xx                      xxxxxxxxxxxxxxxx                           
+71 |                                              xxxxx            xx xx xxx      xx                                   xxxxxx                          xx       xxxxxxxx                          
+72 |                                             xxxxxx            xxxxxxxxx     xx                                     xxxxx                          xx       xxxxxxxx                          
+73 |                                             xxx  x             xxxx  xx    xxx                                     xxx    x                                   xxxxx                          
+74 |                                             xxx xx              xxx xxxx  xxx                                       xxxx xx                                    xxx                           
+75 |                                             xxxxxxx              xxxxxxx  xxx       xx                               x xxxxxx                                   x                            
+76 |                                              xxxxxx            x x xxxxxxxx xxx    xxx                               xxxxx xx                                                                
+77 |                                               xxxxxxx          xxxxxxxxxxxxx  xxx xxxxx                                xxxxxx                                                                
+78 |                                              xxxxxxxxxx     xx xxx xxxxxxxxx xxxxxxx  xx                            xx   xx                                                                  
+79 |                                               xxxxxxxxxxxx xxxx    xx xxxxxxxxxxxx xxxxxx                            xxxxxx                                                                  
+80 |                                               xxxxxxxxxxxxxxxx     xx xxxxxxx xxxx x xxxxx                           xxxxxx                                                                  
+81 |                                                xxxxxxxxxxx xx      xxxxxxxxxxx     xxx  xxxx                           xxx                                                                   
+82 |                                                  xxxxxxxxxxxxx          xxxxxx         xxxxx                          xx                                                                     
+83 |                                                  xxxxxxxxxxxxx          xxxxxx  xxxx   xxxx              xx      x    x                                                                      
+84 |                                                  xxxx xxxxxxxxx           x xxxxxxxxxxxxxxx              xxxxxxxxx xxxx                                                                      
+85 |                                                   xxx xxxxxxxxxx            xxxxx xxx  xxxxxx         xxxxxxxxxxxxxxxxx                                                                      
+86 |                                                        xxxxxxxx              x      x   xxxxxx        xxxxxxxxxxxxxxxxxx               x                                                     
+87 |                                                        xxxxxxxxx                        xxxxxxx       xxxxxxxxxxxxxxxxxx               x                                                     
+88 |                                                        xxxxxxxxx                        xx xxxxx      xxxxxxxxxxxxxxxx            xxxx xx                                                    
+89 |                                                           xxxxxx                           xxxxx         xxxxxxxxx xxx          x xxxxxxxxx                                                  
+90 |                                                             xxxx                          xxxxxx      xx xxxxxxx  xxxxxxx       x x  xxx  x                                                  
+91 |                                                           xxxxx                         xxxxxxxxxx x  xxxxxxxxx  xx  xxx  xx   xx xxxxxxxxx                                                  
+92 |                                                           xx  x                        xxxxxxxxxxxxxx xxxxxxxxx xxxxxxxx  xxx   xxxxxxx                                                      
+93 |                                                           xx                          xxxxxxxxxxxxxxxxxxxx  xxxxxxxxxxxxxxx xxxxxx  xxx                                                      
+94 |                                                   xx     xxxxx                        xxxxxxxxxxxxxxxxxxxx   xxxxxxxxxxxxx      xx  xx                                                       
+95 |                                                   xxxxxxxxxxxx                  x  xx xx xxxxxxxxxxxxxxxxx   xxxxxx  xxxxxxxxx  xxxxxx                                                       
+96 |                                                   xxx    xx x                  xxx xxxxxxxxxxxxxxxxxxxxxx    xxxxxx  xxxxxxxxxxxxxxxxxxx                                                     
+97 |                                                xxxxxxx   x xx                    xxxxxxxxxxxxxxxxxxxxxxxx     xxxxx    xx  xxxxx  x xxx                                                      
+98 |                                             xxxxxxxxx    xxx                    xxxxxxx xxxxxxxxxxxxxxxx     xxxxxx    x  xxxxxx    xxx                                                      
+99 |                                             xxxxxxxx      xx                     xxxxx  xxx   xxxxxxx       xxxxxxxxxxxxx xx xx    xxxxxx                                                    
+100 |                                           xxxxxxx xx                             xxxxxxxxx     xxxxxxx      xxxxxxxxxx xxxx   x    xxxxxx                                                    
+101 |                                           xx xxx   xx                              xxxx xxxx   xxxx xxx       xxxxxxxxxxxxxx  xx x xxxx                                                      
+102 |                                                    xx                           xxxxxxxxxxx     xxxx x xxxx   xxxxxxxxxxxx    xxxxx   x                                                      
+103 |                                                    xx                            xxxxxxxxxx      xxx xxxxxx   xxxxxxxxxxxx    x   xxxxxx                                                     
+104 |                                                    xx                             xxxxx xxxxx   xxxxxx  xxxx  xxxxxxxxxxx     x   xxx x                                                      
+105 |                                                     xxxx xxxxxx                  xxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxxxxxx     xx      xxxx                                                    
+106 |                                                     xxxx xxxxxx       xx           xxxxxxxxxx xxxxxxxxxxxx x xxxxxxxxxxxxxxxxxx      xxxxxx                                                  
+107 |                                                        xxxxxxxx       xxxxx    x    xxxxxxxx  xxxxxxxxxxxxxxxxxxxxxxxxxx   xx x      xxxxxx                                                  
+108 |                                                          x   xxxx      xxxx    xxx   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx   x  x      xxx                                                     
+109 |                                                                 xx xxxxxxxx   xxxx   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  xxxxxx      xx                                                     
+110 |                                                                  xxx xx xxxxxxxxxx     xx xxxxxxxxxxxxxxxxxxxxxxxx  xxx   x  xxx    xxx                                                      
+111 |                                                                  xx     xxx    xxxx    xx xxxxxxxxxxxxxxx x  xxxxx xxxx   x   x     xx                                                       
+112 |                                                                  xx xxxxxxxxx   xxx    xx      xxxxxxxxxxxx  xxxxxx xx   xxx  xx     x                                                       
+113 |                                                                  xxxxx xxxxx    xx      xxxxxxxxxxxxxxxxx    xxxxxx x   xx     xxxxx x                                                       
+114 |                                                                    xxxxxxxx      x     xx xxxxxxxxxxxxxx     xxxxxxxx   x      xxxxxxx                                                       
+115 |                                                                     xxx xx       x    xx xxxxxxxxxxxxxxx     xxxx xx   xxx       xxxx                                                        
+116 |                                                                         x        x x  xxxxxxxxxxxxxxx  x     xxx  x    xxx          x                                                        
+117 |                                                                                  xxxxxxxx  xxx  xxxx         xxx xxx xxxxx                                                                   
+118 |                                                                                    xxxxxx       xx           xxx x xxxxxx                                                                    
+119 |                                                                                 xxxxxxxxx                      xxx                                                                           
+120 |                                                                                 xxxxxxxxxx                                                                                                   
+121 |                                                                                   xxx xxxxx                                                                                                  
+122 |                                                                                       x xxx                                                                                                  
+123 |                                                                                     xxxxxx                                                                                                   
+124 |                                                                                    xxxxxxx                                                                                                   
+125 |                                                                                   xx xxx                                                                                                     
+126 |                                                                                      xx                                                                                                      
+Result: 2631
