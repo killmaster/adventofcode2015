@@ -7,7 +7,6 @@ import (
 )
 
 var key = "yzbqklnj"
-var result = make(chan string, 10)
 
 const max = 10000000
 const maxWorkers = 10
