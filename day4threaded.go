@@ -7,9 +7,10 @@ import (
 )
 
 var key = "yzbqklnj"
-var result = make(chan string)
+var result = make(chan string, 10)
 
 const max = 10000000
+const maxWorkers = 10
 
 func worker(id int, jobs <-chan int, result chan<- string) {
 	for answer := range jobs {
@@ -29,7 +30,7 @@ func main() {
 	jobs := make(chan int, max)
 	result := make(chan string)
 
-	for w := 0; w <= 10; w++ {
+	for w := 0; w <= maxWorkers; w++ {
 		go worker(w, jobs, result)
 	}
 

@@ -1,0 +1,6 @@
+[aeiou].*[aeiou].*[aeiou]  #vowels
+(.)\1                      #duplicates
+discard (ab|cd|pq|xy)      #without ab,cd,pq,xy
+
+(..).*\1  #duplicates that appear at least twice without overlapping
+(.).\1    #letter that repeats itself with exactly one letter between them
