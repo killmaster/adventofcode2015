@@ -3,6 +3,9 @@ package main
 import (
 	"bufio"
 	"fmt"
+	"image"
+	"image/color"
+	"image/png"
 	"log"
 	"os"
 	"strconv"
@@ -11,6 +14,35 @@ import (
 
 /* side size of the light grid */
 const size int = 1000
+
+func createImage(matrix *[size][size]int, filename string, maxintensity int) {
+	var intensity uint8
+	oldmin := 0
+	oldmax := maxintensity
+	oldrange := oldmax - oldmin
+	newmin := 0
+	newmax := 255
+	newrange := newmax - newmin
+
+	/*
+	* canvas with the matrix size
+	 */
+	myimage := image.NewRGBA(image.Rectangle{image.Point{0, 0}, image.Point{size, size}})
+	for x := 0; x < size; x++ {
+		for y := 0; y < size; y++ {
+			/*
+			* normalize the values because color is 8bit
+			 */
+			newvalue := ((((*matrix)[x][y] - oldmin) * newrange) / (oldrange)) + newmin
+
+			intensity = uint8(newvalue)
+			c := color.RGBA{intensity, intensity, intensity, 255}
+			myimage.Set(x, y, c)
+		}
+	}
+	output, _ := os.Create(filename + ".png")
+	png.Encode(output, myimage)
+}
 
 func readLines(path string) ([]string, error) {
 	file, err := os.Open(path)
@@ -123,18 +155,30 @@ func main() {
 	}
 	lights := 0
 	brightness := 0
+	maxintensityPart1 := 0
+	maxintensityPart2 := 0
+
 	for _, x := range matrixPart1 {
 		for _, y := range x {
 			if y == 1 {
 				lights++
+				if y > maxintensityPart1 {
+					maxintensityPart1 = y
+				}
 			}
 		}
 	}
 	for _, x := range matrixPart2 {
 		for _, y := range x {
 			brightness += y
+			if y > maxintensityPart2 {
+				maxintensityPart2 = y
+			}
 		}
 	}
+
+	createImage(&matrixPart1, "out1", maxintensityPart1)
+	createImage(&matrixPart2, "out2", maxintensityPart2)
 	fmt.Println("Part I result: ", lights)
 	fmt.Println("Part II result: ", brightness)
 }
