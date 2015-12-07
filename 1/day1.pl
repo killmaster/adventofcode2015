@@ -28,5 +28,5 @@ while ($file_contents =~ m/([\(\)])/g) {
     last;
   }
 }
-print "open: $count_up\tclosed: $count_down\tfloor: $floor\n";
+print "part 1: $floor\n";
 print "part 2: $count\n";
