@@ -4,12 +4,12 @@ input = "vzbxkghb"
 badcharacters = re.compile(r'[i|o|l]')
 duplicated = re.compile(r'(.)\1')
 
-def checkSequence(input):
+def check_sequence(input):
     for i in xrange(len(input)-2):
         if ord(input[i]) == ord(input[i+1])-1 and ord(input[i]) == ord(input[i+2])-2:
             return True
 
-def increaseChar(input):
+def increase_char(input):
     temp = list(input)[::-1]
     for i in xrange(len(temp)):
         if temp[i] == 'z':
@@ -22,8 +22,8 @@ def increaseChar(input):
 def get_password(input):
     flag = False
     while not flag:
-        input = increaseChar(input)
-        if not checkSequence(input):
+        input = increase_char(input)
+        if not check_sequence(input):
             #print input
             continue
         if badcharacters.search(input) is not None:
