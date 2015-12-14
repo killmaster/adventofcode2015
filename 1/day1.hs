@@ -2,12 +2,11 @@ import Data.Char
 
 main = do
   contents <- getContents
-  putStrLn (show (findFloor contents))
-  putStrLn (show (enterBasement contents 0 0))  -- starting on 0 because recursion
+  putStrLn . show $ findFloor contents
+  putStrLn . show $ enterBasement contents 0 0  -- starting on 0 because recursion
                                                 -- takes one more step
 
-
-findFloor :: [Char] -> Int
+findFloor :: String -> Int
 findFloor =
   foldl (\acc c ->
   case c of '(' -> (acc + 1)
@@ -20,8 +19,6 @@ findFloor =
 --     else if c == ')'
 --       then acc - 1
 --       else acc) 0
-
-
 
 -- findFloor [] = 0
 -- findFloor ('(': cs) = 1 + findFloor cs
